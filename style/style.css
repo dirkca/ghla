@@ -1,0 +1,354 @@
+html, body {
+    background: #efe3ba;
+}
+body { 
+    font-family: 'PT Sans Narrow', sans-serif; 
+    font-size: 15px; 
+    padding-top: 0;
+}
+legend {
+    border-bottom-color: #ccc;
+    color: #333;
+}
+
+
+hr {
+    -moz-border-bottom-colors: #ccc;
+    border-color: #ccc;   
+}
+/****************HEADER****************************/
+#top 
+{ 
+    height: 121px; 
+    position: relative;
+    background:  url([[pix:theme|body-blue-gradient-bg]]); 
+}
+#logo { 
+    float: left; 
+    margin: 0 25px 0 0; 
+    height: 121px; 
+}
+#logo img {
+    height: 121px;
+    width: 500px;
+}
+div#connect { float: right; padding: 15px 25px 0 0; }
+div#connect a img { margin: 0 10px; }
+#toggle-box { clear: both; display: block; position: absolute; top: 105px; left: 75px;
+    background: #dadada; color: #666; margin: 0; padding: 0; width: 700px;
+    -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5); box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+#toggle-box h1 { color: #333; }
+#toggle-box a { color: #263788; text-decoration: none; }
+#toggle-box a:hover { color: #4354a5; text-decoration: underline;}
+#toggle-content { clear: both; display: block; position: relative; padding: 15px; z-index: 10000; }
+#toggle-content .school-col { width: 220px; float: left; z-index: 10001; }
+#toggle-content .social { display: none;  }
+/**************NAVBAR *************************/
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: relative;
+}
+.navbar-fixed-top {
+    margin-bottom: 3px;
+}
+.navbar {
+    clear: both;
+   background: #eac25a;
+}
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    box-shadow: none;
+    border-width: 0;
+}
+.navbar-inner {
+    background-color: transparent;
+    background-image: none;
+}
+.navbar li {
+    background:  #eac25a;
+}
+.navbar .brand {
+    font-size: 25px !important;
+     padding: 8px 20px;
+}
+.navbar .brand ,.navbar .nav  li  a {
+    color: #211f60;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: none;
+    margin-left: 0px;
+}
+.nav-collapse .nav  li  a {
+    margin-bottom: 0;
+}
+.navbar .btn-navbar {
+    background-image: none;
+    background-color: transparent;
+}
+.navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
+    background-color: transparent;
+    color: #fff;
+}
+.nav-collapse .nav  li  a:hover, .nav-collapse .nav li  a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus, .nav-collapse .dropdown-submenu a:focus, .nav-collapse .dropdown-submenu a:hover, .nav-collapse .dropdown-submenu a:active, .nav-collapse .dropdown-menu  li  a:hover, .nav-collapse .dropdown-menu  li  a:focus {
+    background-image: none;
+    background-color: transparent;
+    color: #211f60;
+    text-decoration: none;
+}
+.navbar .nav li.dropdown.open  .dropdown-toggle, .navbar .nav li.dropdown.active  .dropdown-toggle, .navbar .nav li.dropdown.open.active  .dropdown-toggle {
+    background: #ffd15b;
+    color: #211f60;
+}
+.navbar .nav  li  .dropdown-menu:after,.navbar .nav  li .dropdown-menu:before {
+     border-bottom: 0 none;
+    border-left: 0 none;
+    border-right: 0 none;
+}
+.dropdown-menu,.dropdown-menu li {
+    background:  #ffd15b;
+    color: #211f60;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+.dropdown-submenu  a:after ,.dropdown-submenu:hover  a:after {
+     border-color: transparent transparent transparent #211f60;  
+}     
+.dropdown-submenu  .dropdown-menu {
+    margin-left: -1px;
+    margin-top: 0;
+}
+.dropdown-menu  li  a:hover, .dropdown-menu  li  a:focus, .dropdown-submenu:hover  a, .dropdown-submenu:focus  a {
+    background-color: transparent;
+    background-image: none;
+}
+.navbar-text {
+    color: #211f60; 
+    font-size: 17px;
+    font-weight: bold;
+}
+.navbar .nav li.dropdown  .dropdown-toggle .caret {
+    border-bottom-color:#211f60;
+    border-top-color:#211f60;
+}
+.skip{
+    display: none;
+}
+/******************************************/
+.breadcrumb {
+   background:  url([[pix:theme|bg]]); 
+    background-color: transparent;
+}
+.breadcrumb-nav {
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+.breadcrumb  li {
+    text-shadow: none;
+}
+.breadcrumb  li a {
+    color: #fff;
+    text-decoration: underline;
+}
+.breadcrumb  li span {
+    color: #fff;
+    text-shadow: none;
+}
+/*******************BUTTONS ************************/
+button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {
+    background: #6d6d6d;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #6d6d6d; 
+    box-shadow: none;
+    color: #ccc;
+    cursor: pointer;
+    display: inline-block;
+    font-size:16px;
+    text-align: center;
+    text-shadow: none;
+    font-family: 'PT Sans Narrow',sans-serif; 
+}
+input.form-submit, input#id_submitbutton, input#id_submitbutton2, .path-admin .buttons input[type="submit"], td.submit input {
+    background-color: #6d6d6d;
+    background-image: none;
+    border-color: #6d6d6d;
+    color: #ccc;
+    font-size:16px;
+    text-shadow: none;
+    font-family: 'PT Sans Narrow',sans-serif;
+}
+button:hover, input.form-submit:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:focus, input.form-submit:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
+    background: #ffd15b;
+    color: #211f60;  
+    text-decoration: none;
+    font-family: 'PT Sans Narrow',sans-serif;
+}
+
+input.form-submit:hover, input#id_submitbutton:hover, input#id_submitbutton2:hover, .path-admin .buttons input[type="submit"]:hover, td.submit input:hover, input.form-submit:focus, input#id_submitbutton:focus, input#id_submitbutton2:focus, .path-admin .buttons input[type="submit"]:focus, td.submit input:focus, input.form-submit:active, input#id_submitbutton:active, input#id_submitbutton2:active, .path-admin .buttons input[type="submit"]:active, td.submit input:active, input.form-submit.active, input#id_submitbutton.active, input#id_submitbutton2.active, .path-admin .buttons input.active[type="submit"], td.submit input.active, input.form-submit.disabled, input#id_submitbutton.disabled, input#id_submitbutton2.disabled, .path-admin .buttons input.disabled[type="submit"], td.submit input.disabled, input.form-submit[disabled], input#id_submitbutton[disabled], input#id_submitbutton2[disabled], .path-admin .buttons input[type="submit"][disabled], td.submit input[disabled] {
+     background: #ffd15b;
+    color: #211f60; 
+}
+
+
+/************* SIDEBAR ******************/
+.block {
+    background:  url([[pix:theme|bg]]);
+    background-color: transparent;
+    border: 0px solid #ffd15b;
+    border-radius: 4px;
+    box-shadow:none;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 8px 0;
+     color: #fff;  
+    font-family: 'PT Sans Narrow',sans-serif; 
+}
+
+.block a{
+    color: #eac25a;
+   
+}
+/************ MAIN **********************/
+.row-fluid {
+    min-height: 280px;
+}
+table#explaincaps tbody  tr:nth-child(2n+1)  td, table#defineroletable tbody > tr:nth-child(2n+1)  td, table.grading-report tbody  tr:nth-child(2n+1)  td, table#listdirectories tbody  tr:nth-child(2n+1)  td, table.rolecaps tbody  tr:nth-child(2n+1)  td, table.userenrolment tbody  tr:nth-child(2n+1)  td, table#form tbody  tr:nth-child(2n+1)  td, form#movecourses table tbody  tr:nth-child(2n+1)  td, #page-admin-course-index .editcourse tbody  tr:nth-child(2n+1)  td, .forumheaderlist tbody  tr:nth-child(2n+1) td, table.flexible tbody > tr:nth-child(2n+1)  td, .generaltable tbody  tr:nth-child(2n+1)  td, table#explaincaps tbody  tr:nth-child(2n+1)  th, table#defineroletable tbody  tr:nth-child(2n+1)  th, table.grading-report tbody  tr:nth-child(2n+1)  th, table#listdirectories tbody  tr:nth-child(2n+1)  th, table.rolecaps tbody  tr:nth-child(2n+1)  th, table.userenrolment tbody  tr:nth-child(2n+1)  th, table#form tbody  tr:nth-child(2n+1)  th, form#movecourses table tbody > tr:nth-child(2n+1)  th, #page-admin-course-index .editcourse tbody  tr:nth-child(2n+1)  th, .forumheaderlist tbody > tr:nth-child(2n+1)  th, table.flexible tbody  tr:nth-child(2n+1)  th, .generaltable tbody  tr:nth-child(2n+1)  th {
+    background-color: transparent;
+}
+.user-enroller-panel .uep-search-results .users tbody tr:hover td,table.grading-report tbody tr:hover td,.forumheaderlist tbody tr:hover td,.generaltable tbody tr:hover td,table.flexible tbody tr:hover td,.category_subcategories tbody tr:hover td,table#modules tbody tr:hover td,table#permissions tbody tr:hover td,.user-enroller-panel .uep-search-results .users tbody tr:hover th,table.grading-report tbody tr:hover th,.forumheaderlist tbody tr:hover th,.generaltable tbody tr:hover th,table.flexible tbody tr:hover th,.category_subcategories tbody tr:hover th,table#modules tbody tr:hover th,table#permissions tbody tr:hover th{
+    background-color:transparent;
+}
+table#form td.submit, .form-buttons, .path-admin .buttons, #fitem_id_submitbutton, .fp-content-center form + div, div.backup-section + form, #fgroup_id_buttonar {
+    background-color: transparent;
+}
+.graph img {
+    width: 400px;
+}
+table.flexible th, .generaltable th, table.flexible td, .generaltable td {
+    border-top: 1px solid #eac25a;
+}
+.maincalendar .calendarmonth td, .maincalendar .calendarmonth th {
+    border: 1px solid #ccc;
+}
+.form-item .form-setting, .form-item .form-description, .mform .fitem .felement, #page-mod-forum-search .c1 {
+    margin-left: 140px;
+}
+.form-item .form-label, .mform .fitem div.fitemtitle {
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+    width: 120px;
+}
+.well {
+    background-color: transparent;
+    border: 0px none;
+}
+/************** FOOTER *********************/
+#page-footer {
+    background:  url([[pix:theme|bg-blue-gradient]]);
+    color: #fff;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+#page-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#page-footer p.helplink {
+    margin: 0;
+}
+#page-footer .homelink a{
+    text-decoration: underline;
+}
+/*********** RESPONSIVE *******************/
+@media only screen and (min-width : 1000px) { 
+    #toggle-box {
+        left: 483px;
+    }
+    #toggle-content { width: 700px; }
+    #toggle-content .school-col { width: 225px; } 
+}
+
+@media only screen and (min-width : 900px) { 
+    #toggle-box {
+        left: 370px;
+    }
+}
+/*@media only screen and (min-width : 800px) { 
+    #toggle-box {
+        left: 250px;  width: 500px;
+    }
+}  */
+@media only screen and (max-width : 800px) {
+   #toggle-box {
+        left: 95px;
+        width: 500px;
+    }
+    body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #logo img {
+        height: 121px;
+        width: 350px;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width : 700px) { 
+    #logo img {
+        height: 121px;
+        width: 250px;
+    }
+
+}
+@media only screen and (max-width : 600px) { 
+    #toggle-box {
+        left: 173px;
+        width: 300px;
+    }
+    #logo img {
+        height: 121px;
+        width: 200px;
+    }
+}
+@media only screen and (max-width : 500px) { 
+    #logo img {
+        height: 121px;
+        width: 170px;
+    }
+    #toggle-box {
+        left: 120px;
+        width: 300px;
+    }
+    .cell img {
+        width: 130px;
+    }
+}
+@media only screen and (max-width : 450px) { 
+    #logo img {
+        height: 121px;
+        width: 170px; 
+    }
+    div#connect {
+        display: none;
+    }
+    .cell img {
+        width: 100px;
+    }
+}
+@media only screen and (max-width : 350px) { 
+    #logo img {
+        height: 121px;
+        width: 200px;
+    }
+}

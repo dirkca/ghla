@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* template.css */
+
+div#container { background: #0e0e30 url("../images/template/body-blue-gradient-bg.png") top center repeat-x; width: 1100px; margin: 0 auto; text-align: left; }
+
+div#top { height: 121px; position: relative; }
+div#logo { float: left; margin: 0 25px 0 0; height: 121px; }
+div#connect { float: right; padding: 15px 25px 0 0; }
+div#connect a img { margin: 0 10px; }
+
+div#header { clear: both; overflow: hidden; }
+div#banner { width: 800px; height: 360px; position: relative; float: left; background: url("../images/template/h-default.jpg") center bottom no-repeat; overflow: hidden; }
+div#welcome { position: absolute; top: 0; left: 0; color: #fff; background: url("../images/template/welcome-bg.png"); width: 320px; height: 60px; 
+  }
+div#welcome p { margin: 0; padding: 15px 11px; line-height: 1.5; }
+div#welcome a { color: #ffffff; }
+
+ul#menu { position: absolute; top: 0; right: 0; margin: 0; padding: 0; height: 60px; vertical-align: middle; }
+ul#menu * { line-height: 1; }
+ul#menu li { background: url("../images/template/quicklinks-bg.png"); display: block; float: left; margin: 0; padding: 0; width: 120px !important; height: 60px; text-align: center; vertical-align: middle; }
+ul#menu li a { display: block; padding: 17px 5px 17px 5px !important; color: #211f60; font-weight: bold; font-size: 26px !important; text-decoration: none; }
+ul#menu li a:hover { background: #eac25a; text-decoration: underline; }
+ul#menu li.current { background: #ffd15b !important; }
+
+div#sub-menu { background: url("../images/template/sub-menu-bg.png"); vertical-align: middle; position: absolute; bottom: 0; left: 0; padding: 5px; }
+div#sub-menu ul { display: block; text-align: center; margin: 0; padding: 0; height: 25px; font-size: 18px; width: 800px; list-style: none; }
+div#sub-menu ul li { display: inline; margin: 0; padding: 0; list-style: none; }
+div#sub-menu ul li a { color: #fff; text-decoration: none; padding: 5px 10px; }
+div#sub-menu ul li a:hover { text-decoration: underline; }
+
+div#page-header { clear: both; }
+div#page-header * { line-height: 1; }
+div#page-header ul#page-menu { margin: 0; padding: 0; vertical-align: middle; background: #eac25a; height: 60px; overflow: hidden; }
+div#page-header ul#page-menu li { background: #eac25a; display: block; float: left; margin: 0; padding: 0; width: auto; height: 60px; text-align: center; vertical-align: middle; }
+div#page-header ul#page-menu li.main { background: #eac25a; display: block; float: left; margin: 0; padding: 0; width: auto !important; text-align: center; vertical-align: middle; }
+div#page-header ul#page-menu li.main a { font-size: 26px !important; padding: 15px !important; }
+div#page-header ul#page-menu li a { display: block; color: #211f60; font-weight: bold; font-size: 13px; font-weight: bold; text-decoration: none; padding: 5px 13px; }
+div#page-header ul#page-menu li a:hover { text-decoration: underline; background: #FFD15B; }
+div#page-header ul#page-menu li a img { height: 35px; }
+div#page-header ul#page-menu li.current { background: #ffd15b !important; }
+
+/* for both homepage menu and page-menu */
+li#m-home a, li#m-news a, li#m-cal a, li#m-staff a { width: 120px; display: block; padding: 17px 5px 17px 5px !important; color: #211f60; font-weight: bold; font-size: 26px !important; text-decoration: none; }
+li#m-home a:hover, li#m-news a:hover, li#m-cal a:hover, li#m-staff a:hover { background: #FFD15B !important; }
+
+
+div#quicklinks { float: right; width: 290px; }
+div#quicklinks div { width: 290px; height: 60px; background: url("../images/template/quicklinks-bg.png") top center repeat-x; overflow: hidden; }
+div#quicklinks div:hover { background: url("../images/template/quicklinks-bg-hover.png") top center repeat-x; }
+div#quicklinks div a { width: 290px; height: 60px; display: block; color: #19184a; text-decoration: none; }
+div#quicklinks div a img { float: left; margin: 0 20px 0 5px; }
+div#quicklinks div a span.title { display: block; font-weight: bold; font-size: 20px; padding: 15px 0 0 0; }
+div#quicklinks div a span.info { display: block; font-size: 14px; }
+
+
+div#content { clear: both; padding: 25px; text-align: left; }
+div#content div#homepage-left { float: left; width: 750px; }
+div#content div#homepage-right { float: right; width: 255px; }
+
+div#content div#homepage-right div#social { margin: 0 0 15px 0; text-align: right; }
+div#content div#homepage-right div#social ul { list-style: none; padding: 0; }
+div#content div#homepage-right div#social ul li { padding: 0; display: inline; }
+div#content div#homepage-right div#social ul li a { margin: 3px; }
+
+
+div#homepage-bottom { clear: both; padding: 25px 0 0 0; }
+div#homepage-bottom .homepage-bottom-col { float: left; width: 395px; }
+div#homepage-bottom #contact { float: right; width: 255px; }
+
+
+div#footer { clear: both; margin-top: 25px; padding: 25px; }
+
+#toggle-box { clear: both; display: block; position: absolute; top: 105px; left: 25px;
+	background: #dadada; color: #666; margin: 0; padding: 0; width: 1050px;
+	-webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5); box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+	z-index: 9999;
+}
+#toggle-box h1 { color: #333; }
+#toggle-box a { color: #263788; text-decoration: none; }
+#toggle-box a:hover { color: #4354a5; text-decoration: underline;}
+#toggle-content { clear: both; display: block; position: relative; padding: 15px; z-index: 10000; }
+#toggle-content .school-col { width: 335px; float: left; z-index: 10001; }
+#toggle-content .social { display: none;  }
+
+/* Two Portals */
+div.two-portals { margin: 0; padding: 0; }
+div.two-portals div.left { float: left; width: 500px; }
+div.two-portals div.right { float: right; width: 500px; }
+
+table.two-col { table-layout: fixed; width 100% }
+table.two-col tr td {  padding: 0 25px 0 0; vertical-align:top; }
+
+table#contact tr th { vertical-align: top; padding: 1px 5px 2px 10px; text-align: left; }
+table#contact tr td { vertical-align: top; padding: 1px 5px 2px 10px; }
