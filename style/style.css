@@ -267,6 +267,11 @@ table.flexible th, .generaltable th, table.flexible td, .generaltable td {
 #page-footer .homelink a{
     text-decoration: underline;
 }
+
+/**********************************************/
+.navbar-fixed-top, .navbar-fixed-bottom{
+    z-index: 0 !important;
+}
 /*********** RESPONSIVE *******************/
 @media only screen and (min-width : 1000px) { 
     #toggle-box {
